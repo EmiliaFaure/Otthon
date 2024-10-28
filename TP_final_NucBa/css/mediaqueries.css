@@ -1,0 +1,233 @@
+
+@media (min-width: 800px) {
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+/* =========================================== */
+/* ================ Header =================== */
+/* =========================================== */
+  header {
+ 
+    margin: 0 auto;
+    border-bottom: 1px solid #131415;
+    max-width: 1700px;
+    
+  }
+
+  .nav-header {
+    display: flex;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+
+.nav-links li:hover{
+
+  color: var(  --accent-color);
+}
+
+  .burguer{
+    display: none;
+  }
+  
+/* =========================================== */
+/* ================== HERO =================== */
+/* =========================================== */
+
+
+  #hero {
+    flex-direction: row;
+    padding-top: 7rem;
+    gap: 5rem;
+  
+  }
+
+  #hero img{
+
+    width: 600px;
+  }
+  .hero-info{
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .hero-info h1{
+    font-size: var(--desktop-title);
+  }
+
+ /* =========================================== */
+/* ================= ENCABEZADO ================ */
+/* =========================================== */
+
+
+.encabezado-info{
+  padding-top: 4rem;
+  padding-bottom: 20rem;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/Foto_fondo.jpg);
+  background-size: cover; 
+  background-position: center;
+
+}
+
+/* =========================================== */
+/* ================= CARACTERISTICAS ================ */
+/* =========================================== */
+
+#Caracteristicas {
+  padding: 5rem 0;
+  text-align:start;
+  display: flex;
+  flex-direction:row;
+  gap: 1rem;
+  padding-bottom: 90px;
+
+}
+
+#Caracteristicas img{
+
+  width: 600px;
+}
+
+/* =========================================== */
+/* ================= SERVICIOS ================ */
+/* =========================================== */
+#Servicios {
+
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+
+.servicios-item{
+  padding-top: 4rem;
+  display: flex;
+  flex-direction:row;
+
+
+}
+
+/* =========================================== */
+/* ================= PREGUNTAS ================ */
+/* =========================================== */
+
+#Preguntas{
+
+  padding-bottom: 10rem;
+}
+
+
+/* =========================================== */
+/* ================= EQUIPO ================ */
+/* =========================================== */
+
+.empleados-conteiner{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 1rem;
+
+}
+.equipo-container{
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 1rem;
+  
+  
+  }
+  
+  .equipo-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  
+  }
+  
+  .equipo-info p{
+  
+    font-size: var(--medium);
+  }
+  
+  .empleado{
+  
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 2rem;
+   
+  }
+  
+  .empleado p{
+  
+    font-size: var(--font-sm);
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  
+  
+  .empleado img{
+  
+    width: 100%;
+  }
+  
+  .empleado i{
+    padding: 0.5rem;
+  
+  }
+  
+  .contrato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+
+/* =========================================== */
+/* =================FORMULARIO =================== */
+/* =========================================== */
+
+  .correo{
+    width: 35%;
+    padding: 0.5rem;
+
+   }
+   
+
+/* =========================================== */
+/* =================FOOTER =================== */
+/* =========================================== */
+
+
+  footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 5rem;
+    gap: 2rem;
+  }
+
+  .links-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-footer {
+    flex-direction: row;
+  }
+}
+
+
